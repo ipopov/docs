@@ -22,7 +22,7 @@ A user has:
 - a *private* phone number **P**, assigned by her carrier
 - a *public* phone number, **G**, her Google Voice number
 
-Her *correspondent* has a public phone number **C**. As a property of the user's account Google Voice assigns the *(P, C)* tuple a *shadow* phone number **S**.
+Her *correspondent* has a public phone number **C**. As a property of the user's account, Google Voice assigns the *(P, C)* tuple a *shadow* phone number **S**.
 
 ## Shadow numbers and phone calls
 Google Voice calls go over the regular cellular network. After the first time a given number has been called, they do not require a data connection. The app implements this by assigning a "shadow" telephone number **S** to each "real" number **C** a user wishes to be able to call, routing every call through a Google Voice machine and translating phone numbers there. There is apparently a bank of thousands of phone numbers owned by Google used for this purpose.
